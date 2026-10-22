@@ -96,7 +96,7 @@ export const FaqSection: React.FC = () => {
             <div className="text-xs text-slate-400">Nossa equipe do Rio de Janeiro responde em minutos no WhatsApp.</div>
           </div>
           <a
-            href="https://wa.me/5521999999999?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20a%20Panfletagem%20Digital."
+            href="https://wa.me/5521990089982?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20a%20Panfletagem%20Digital."
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-2 whitespace-nowrap cursor-pointer shadow-md"

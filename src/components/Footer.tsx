@@ -28,7 +28,7 @@ export const Footer: React.FC<FooterProps> = ({ onScrollToTop, onScrollToForm })
         </div>
 
         <a
-          href="https://wa.me/5521999999999?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20Panfletagem%20Digital%20no%20meu%20bairro!"
+          href="https://wa.me/5521990089982?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20Panfletagem%20Digital%20no%20meu%20bairro!"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 rounded-full bg-gradient-to-tr from-emerald-500 to-emerald-400 text-white flex items-center justify-center shadow-[0_10px_25px_rgba(16,185,129,0.4)] hover:scale-110 transition-all duration-300 cursor-pointer group"
@@ -94,7 +94,7 @@ export const Footer: React.FC<FooterProps> = ({ onScrollToTop, onScrollToForm })
               <div className="space-y-1.5 pt-1 text-slate-300 text-xs">
                 <div className="flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>WhatsApp: (21) 99999-9999</span>
+                  <span>WhatsApp: (21) 99008-9982</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-[#0080FF]" />

@@ -179,7 +179,7 @@ export const MetaAdsPackageSection: React.FC<MetaAdsPackageSectionProps> = ({
     const text = encodeURIComponent(
       'Olá Brasils! Quero contratar o *Pacote Aceleração 7D Meta Ads* com 7 dias de anúncios, verba inclusa, criativo estático + vídeo e relatório de ROI para o meu negócio!'
     );
-    window.open(`https://wa.me/5521999999999?text=${text}`, '_blank');
+    window.open(`https://wa.me/5521990089982?text=${text}`, '_blank');
   };
 
   return (

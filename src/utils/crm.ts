@@ -30,7 +30,7 @@ export const TARGET_NEIGHBORHOODS = [
 
 export type NeighborhoodOption = typeof TARGET_NEIGHBORHOODS[number];
 
-export const AGENCY_WHATSAPP_NUMBER = '5521999999999';
+export const AGENCY_WHATSAPP_NUMBER = '5521990089982';
 
 export function formatBRPhone(value: string): string {
   const digits = value.replace(/\D/g, '').slice(0, 11);
@@ -61,60 +61,7 @@ export function generateWhatsAppLink(
 
 const CRM_STORAGE_KEY = 'brasils_panfletagem_crm_leads_v1';
 
-export const INITIAL_DEMO_LEADS: Lead[] = [
-  {
-    id: 'lead-1',
-    createdAt: new Date(Date.now() - 1000 * 60 * 45).toISOString(),
-    companyName: 'Bistrô Varnhagen',
-    segment: 'Restaurante / Bar / Delivery',
-    neighborhood: 'Tijuca / Maracanã',
-    clientName: 'Eduardo Silveira',
-    whatsapp: '(21) 98765-4321',
-    status: 'fechado',
-    packageChosen: 'Pacote Aceleração Local',
-    priceBRL: 399,
-    notes: 'Campanha ativa na Praça Varnhagen. 14 novos pedidos no primeiro final de semana.'
-  },
-  {
-    id: 'lead-2',
-    createdAt: new Date(Date.now() - 1000 * 60 * 180).toISOString(),
-    companyName: 'Studio Pilates Boulevard',
-    segment: 'Academia / Pilates / Crossfit',
-    neighborhood: 'Vila Isabel',
-    clientName: 'Camila Peixoto',
-    whatsapp: '(21) 99123-5566',
-    status: 'em_contato',
-    packageChosen: 'Pacote Aceleração Local',
-    priceBRL: 399,
-    notes: 'Quer focar nos prédios da 28 de Setembro e Teodoro da Silva.'
-  },
-  {
-    id: 'lead-3',
-    createdAt: new Date(Date.now() - 1000 * 60 * 360).toISOString(),
-    companyName: 'Pet & Vet Grajaú',
-    segment: 'Prestador de Serviços / Reforma',
-    neighborhood: 'Grajaú',
-    clientName: 'Rodrigo Fontes',
-    whatsapp: '(21) 98456-7890',
-    status: 'novo',
-    packageChosen: 'Pacote Aceleração Local',
-    priceBRL: 399,
-    notes: 'Foco no raio de 3km ao redor da Praça Edmundo Rego.'
-  },
-  {
-    id: 'lead-4',
-    createdAt: new Date(Date.now() - 1000 * 60 * 720).toISOString(),
-    companyName: 'Dra. Mariana Estética Avançada',
-    segment: 'Estética / Beleza / Barbearia',
-    neighborhood: 'Barra da Tijuca',
-    clientName: 'Mariana Drummond',
-    whatsapp: '(21) 97654-1122',
-    status: 'fechado',
-    packageChosen: 'Pacote Aceleração Local',
-    priceBRL: 399,
-    notes: 'Condomínios da Av. das Américas e Jardim Oceânico.'
-  }
-];
+export const INITIAL_DEMO_LEADS: Lead[] = [];
 
 export function getStoredLeads(): Lead[] {
   if (typeof window === 'undefined') return INITIAL_DEMO_LEADS;

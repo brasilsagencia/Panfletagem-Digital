@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import { generateWhatsAppLink, formatBRPhone, isValidBRPhone, exportLeadsToCSV, Lead } from './crm';
 
 test('generateWhatsAppLink generates expected message and encoded url', () => {
-  const link = generateWhatsAppLink('Pizzaria Tijucana', 'Tijuca / Maracanã', '5521999999999');
+  const link = generateWhatsAppLink('Pizzaria Tijucana', 'Tijuca / Maracanã', '5521990089982');
   
-  assert.ok(link.startsWith('https://wa.me/5521999999999?text='), 'Must point to agency phone');
+  assert.ok(link.startsWith('https://wa.me/5521990089982?text='), 'Must point to agency phone');
   assert.ok(link.includes(encodeURIComponent('Pizzaria Tijucana')), 'Must contain encoded company name');
   assert.ok(link.includes(encodeURIComponent('Tijuca / Maracanã')), 'Must contain encoded neighborhood');
   assert.ok(link.includes(encodeURIComponent('R$ 399')), 'Must mention R$ 399 package');
@@ -31,8 +31,8 @@ test('exportLeadsToCSV generates valid CSV content', () => {
       companyName: 'Padaria Imperial',
       segment: 'Restaurante / Bar / Delivery',
       neighborhood: 'Vila Isabel',
-      clientName: 'Carlos',
-      whatsapp: '(21) 99999-8888',
+      clientName: 'Contato de teste',
+      whatsapp: '(00) 00000-0000',
       status: 'novo',
       packageChosen: 'Pacote Aceleração Local',
       priceBRL: 399
