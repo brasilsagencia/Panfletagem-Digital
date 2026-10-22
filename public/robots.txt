@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://panfletagemdigitalrj.com.br/sitemap.xml
