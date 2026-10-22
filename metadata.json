@@ -1,0 +1,6 @@
+{
+  "name": "Panfletagem Digital RJ - Brasils Agência Digital",
+  "description": "Transforme o alcance do seu negócio local em Vila Isabel, Tijuca, Grajaú, Jacarepaguá e Barra da Tijuca com Panfletagem Digital. Anúncios a partir de R$ 399.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
